@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivLinkImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/bookmark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLinkTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:text="Android hive- Android development tutorials whatever"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivLinkGo"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/go" />
+    </LinearLayout>
+
+</LinearLayout>
